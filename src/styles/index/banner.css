@@ -1,0 +1,40 @@
+.section-banner{
+    background-color: var(--gray-2);
+    max-width: 100%;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1.5rem, 0.538rem + 3.846vw, 4rem);
+}
+.section-banner h1{
+    font-size: clamp(2rem, 0.135rem + 3.462vw, 3.25rem);
+    text-align: center;
+    color: var(--gray-6);
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+span{
+    color: var(--brand-1);
+}
+.section-banner p{
+    font-size: clamp(1rem, 0.904rem + 0.385vw, 1.25rem);
+    color: var(--gray-4);
+    text-align: center;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.botao-banner{
+    cursor: pointer;
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font-size: clamp(0.8rem, 0.308rem + 0.769vw, 1rem);
+    margin-top: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+    padding: 1rem;
+}
+.botao-banner:hover{
+    background-color: var(--brand-2);
+}

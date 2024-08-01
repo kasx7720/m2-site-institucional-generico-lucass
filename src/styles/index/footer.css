@@ -1,0 +1,8 @@
+footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-1);
+    padding: clamp(1rem, 0.808rem + 0.769vw, 1.5rem);
+}

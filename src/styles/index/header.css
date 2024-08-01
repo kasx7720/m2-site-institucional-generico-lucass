@@ -1,0 +1,26 @@
+header{
+    background-color: var(--gray-1);
+    border-bottom: 2px solid var(--brand-1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.header-container{
+    max-width: 1256px;
+    margin-inline: auto;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+    display: flex;
+    justify-content: space-between;
+}
+.botao-header{
+    border: 1px solid var(--gray-7);
+    background-color: var(--gray-1);
+    color: var(--gray-7);
+    cursor: pointer;
+    font-size: clamp(0.8rem, 0.308rem + 0.769vw, 1rem);
+    padding: 1rem
+}
+.botao-header:hover{
+    background-color: var(--gray-2);
+}

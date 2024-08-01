@@ -1,0 +1,32 @@
+.section-about{
+    background-color: var(--gray-1);
+    max-width: 100%;
+    margin: 0 auto;
+}
+.about-content{
+    max-width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.left-content{
+    width: 100%;
+    align-items: center;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.right-content{
+    width: 100%;
+    align-items: center;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+    text-align: justify;
+}
+.section-about h2{
+    font-size: clamp(1.75rem, 0.423rem + 2.308vw, 2.5rem);
+    color: var(--gray-6);
+}
+.section-about p{
+    font-size: clamp(1rem, 0.904rem + 0.385vw, 1.25rem);
+    color: var(--gray-5);
+}

@@ -1,0 +1,57 @@
+.section-faq{
+    background-color: var(--gray-2);
+    max-width: 100%;
+    margin: 0 auto;
+}
+.faq-content{
+    max-width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.left-faq{
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    top: 100px;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.right-faq{
+    width: 100%;
+    align-items: center;
+    padding: clamp(1rem, 0.615rem + 1.538vw, 2rem);
+}
+.section-faq h2{
+    font-size: clamp(1.75rem, 0.423rem + 2.308vw, 2.5rem);
+    color: var(--gray-6);
+    margin-bottom: 2rem;
+}
+.section-faq p{
+    font-size: clamp(1rem, 0.904rem + 0.385vw, 1.25rem);
+    color: var(--gray-4);
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.botao-faq{
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font: var(--text4);
+    font-size: clamp(0.8rem, 0.308rem + 0.769vw, 1rem);
+    cursor: pointer;
+    padding: 1rem;
+}
+.botao-faq:hover{
+    background-color: var(--brand-2);
+}
+.li-faq{
+    text-align: center;
+    list-style: none;
+}
+.section-faq h3{
+    font-size: clamp(1.5rem, 0.615rem + 1.538vw, 2rem);
+    color: var(--gray-6);
+    margin-bottom: 2rem;
+}
